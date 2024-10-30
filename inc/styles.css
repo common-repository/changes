@@ -1,0 +1,25 @@
+/* Highlight change percentages */
+.changes-bad, .changes-good  {
+	font-size: 150%;
+}
+.changes-bad {
+	color: #CC0000;
+}
+.changes-good {
+	color: #7A9405;
+}
+
+/* Edit detection styles */
+#changes-viewchanges {
+	background-color: #FFF;
+	padding: 5px 10px;
+	border: #DFDFDF solid 1px;
+}
+ins  {
+	background-color: #E6EFC2;
+	padding: 2px 5px;
+}
+del {
+	background-color: #FBE3E4;
+	padding: 2px 5px;
+}
